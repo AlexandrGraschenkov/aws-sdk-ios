@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = "10.8"
   s.source       = { :git => 'https://github.com/aws/aws-sdk-ios.git',
                      :tag => s.version}
-  s.frameworks   = 'UIKit','Foundation','SystemConfiguration'
+  s.frameworks   = 'Foundation','SystemConfiguration'
 
   s.dependency 'Bolts', '~> 1.1.0'
   s.dependency 'Mantle', '~> 1.4.1'
